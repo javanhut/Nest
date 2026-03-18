@@ -15,9 +15,9 @@
 
 [commands]
 
-[commands.example]
-desc = "An example command"
-run = ["echo Hello from imlazy!"]
+[commands.run]
+desc = "Run Nest"
+run = ["go run main.go"]
 # alias = ["ex", "e"]  # Uncomment to add aliases
 # dep = []  # Add dependencies here
 # env = {}  # Add environment variables here
