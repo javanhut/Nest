@@ -18,6 +18,11 @@
 [commands.run]
 desc = "Run Nest"
 run = ["go run main.go"]
+
+[commands.version]
+desc = "Return version of nest"
+run = ["go run main --version"]
+alias = ["-v", "--version"]
 # alias = ["ex", "e"]  # Uncomment to add aliases
 # dep = []  # Add dependencies here
 # env = {}  # Add environment variables here
