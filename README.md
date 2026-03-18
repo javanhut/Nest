@@ -1,8 +1,9 @@
-# Nest
+# Nest - Secure Shell TUI
 
 SSH client with a terminal UI for collecting connection details and a Fyne-based GUI terminal for the session.
 
 Supports direct connections and one level of nested (tunneled) connections for reaching hosts behind a jump server.
+
 
 ## Requirements
 
